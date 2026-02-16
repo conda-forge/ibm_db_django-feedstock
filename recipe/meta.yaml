@@ -1,13 +1,13 @@
 {% set name = "ibm_db_django" %}
-{% set version = "1.5.0.0" %}
+{% set version = "1.6.0.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: c5536c5783d46265deb2c22e415ff0ed569a7bd0b0dbf4692b02adf857c6c1a6
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 9bbb917eefa78be02f8f5ab328c4cf6e809b532343574277ca31d4ea4c91392b
 
 build:
   noarch: python
